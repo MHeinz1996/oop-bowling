@@ -1,6 +1,20 @@
 class Frame:
     def __init__(self, frame_num) -> None:
         self.frame_num = frame_num
+        self.first = 0
+        self.second = 0
+        self.third = 0
+        self.frame = []
+
+    def set_frame(self):
+        pass
+        
+        # Write logic to store scores in the frame.
+        # If a bowl is a strike, it should be an X
+        # If a bowl is a spare, it should be a /
+        # If a bowl is a miss, it should be a -
+        # Make sure to accout for the 10th frame
+
 
 
 # What does a Frame do?
