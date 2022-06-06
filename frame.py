@@ -1,9 +1,9 @@
 class Frame:
     def __init__(self, frame_num) -> None:
         self.frame_num = frame_num
-        self.first = 0
-        self.second = 0
-        self.third = 0
+        self.first_bowl = 0
+        self.second_bowl = 0
+        self.third_bowl = 0
         self.frame = []
 
     def set_frame(self):
