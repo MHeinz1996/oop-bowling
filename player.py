@@ -41,11 +41,12 @@ class Player:
                     frame.third_bowl = randrange(0, 11)
                     self.frames.append(frame.set_frame())
     
-        print(frame.first_bowl, frame.second_bowl, frame.third_bowl)
+        # print(frame.first_bowl, frame.second_bowl, frame.third_bowl)
 
-        if frame_num == 10:
-            print(self.frames)
-            print(len(self.frames))
+        # if frame_num == 10:
+        #     print(self.frames)
+        #     print(len(self.frames))
+        
     # def score(self):
     #     return self.frames
 
