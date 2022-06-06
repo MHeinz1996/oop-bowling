@@ -4,7 +4,7 @@ class Game:
     def __init__(self) -> None:
         pass
 
-    def play():
+    def play(self):
 
         player_name = input("Player Name: ")
 
@@ -14,10 +14,12 @@ class Game:
         # Has player bowl 10 frames
         for frame in range(1,11):
             player.bowl(frame)
-            pass
+
+        # print(type(player.score()))
             
 
-
+game_1 = Game()
+game_1.play()
 # What does the game do?
 # Begins the game
 # The game keeps track of each player's score and which frame they are on
