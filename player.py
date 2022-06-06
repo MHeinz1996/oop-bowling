@@ -41,12 +41,12 @@ class Player:
                     frame.third_bowl = randrange(0, 11)
                     self.frames.append(frame.set_frame())
     
-        # print(frame.first_bowl, frame.second_bowl, frame.third_bowl)
+        # Write logic to calculate the score
+        # Maybe make a first in-first out queue that store multipliers and applies them to the total score
 
-        # if frame_num == 10:
-        #     print(self.frames)
-        #     print(len(self.frames))
-        
+        if frame_num == 10:
+            print(self.frames)
+
     # def score(self):
     #     return self.frames
 
