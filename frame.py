@@ -28,7 +28,9 @@ class Frame:
         if self.third_bowl != None:
             if self.third_bowl == 0:
                 self.frame.append('-')
-            elif self.second_bowl != 10 and self.second_bowl+self.third_bowl == 10:
+            elif self.first_bowl + self.second_bowl == 10 and self.third_bowl == 10:
+                self.frame.append('X')
+            elif self.first_bowl == 10 and self.second_bowl != 10 and self.second_bowl+self.third_bowl == 10:
                 self.frame.append('/')
             elif self.second_bowl == 10 and self.third_bowl == 10:
                 self.frame.append('X')

@@ -15,7 +15,8 @@ class Game:
         for frame in range(1,11):
             player.bowl(frame)
 
-        # print(type(player.score()))
+        print(f"{player.frames}")
+        print(f"Final Score: {player.score}")
             
 
 game_1 = Game()
