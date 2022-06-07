@@ -6,6 +6,7 @@ class Frame:
         self.third_bowl = None
         self.frame = []
 
+    # Function to set the frame bowled
     def set_frame(self):
         if self.first_bowl != None:
             if self.first_bowl == 10:
@@ -44,8 +45,6 @@ class Frame:
         # If a bowl is a spare, it should be a /
         # If a bowl is a miss, it should be a -
         # Make sure to accout for the 10th frame
-
-
 
 # What does a Frame do?
 # Frames keep track of the amount of pins knocked down for that specific round

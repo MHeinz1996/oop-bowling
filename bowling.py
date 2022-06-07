@@ -21,6 +21,7 @@ class Game:
 
 game_1 = Game()
 game_1.play()
+
 # What does the game do?
 # Begins the game
 # The game keeps track of each player's score and which frame they are on
